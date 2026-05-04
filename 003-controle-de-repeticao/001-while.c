@@ -2,13 +2,14 @@
 
 int main()
 {
-    int i = 0; // Expressao Inicial
+    int i = 0;  // Expressão inicial
 
-    while(i < 10) // Expressao Booleana
+    while(i <= 100) // Expressão Booleana
     {
-        printf("[%d] Exemplo WHILE\n", i);
-        i++; // Expressao de Incremento/decremento 
-
+        printf("%d  ", i);
+        //i++; // i = i + 1 / Exp Incremento
+        //i--; // i = i - 1 / Exp. Decremento
+        i = i + 5;
     }
 
     return 0;
